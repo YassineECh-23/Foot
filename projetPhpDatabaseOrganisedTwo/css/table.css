@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+body{
+
+  background: linear-gradient(90deg, rgba(9,20,5,1) 53%, rgba(224,182,69,1) 86%, rgba(221,241,92,1) 99%, rgba(49,47,31,1) 100%, rgba(6,32,37,1) 100%);
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+}
+.nav{
+  overflow: hidden;
+  background:black;
+}
+.nav ul{
+  padding-left: 350px;
+  list-style-type: none;
+}
+.nav li{
+  display: inline;
+}
+  .nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav a:hover{
+  color: #000;
+  background: #ddd;
+  background-color: yellow;
+  border-radius: 30px;
+}
+.nav a.active{
+  background: yellow;
+  
+}
+.insertionMessage h1{
+  margin-top: 0px;
+  text-align: center ;
+  color: white;
+  text-transform: uppercase;
+  transition: all 4s ease-int-out ;
+
+}
+table{
+  position: absolute;
+  z-index: 2;
+  margin-left: 270px;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+  width: 60%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden ;
+  box-shadow: 0 2px 12px;
+  background: yellow;
+  text-align: center;
+}
+th, td{
+  padding: 10px 15px;
+  background: yellow;
+}
+th{
+  background: yellow;
+}
